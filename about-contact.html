@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About &amp; Contact | Rozina's Restaurant, Nakuru</title>
+<meta name="description" content="About Rozina's Restaurant, reserve a table, and find us at Westside Mall, Kenyatta Avenue, Nakuru.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script defer src="app.js"></script></head>
+<body data-page="about">
+<header id="hd"></header>
+<main>
+<section class="mhero"><div class="wrap rv"><span class="eyebrow">About &amp; Contact</span><h1>Good Food. Great Company.</h1><p>Variety, hospitality and memorable dining in the heart of Nakuru.</p></div></section>
+
+<section><div class="wrap split">
+ <div class="collage rv"><span class="a" data-img="in2" data-w="600" data-alt="Rozina's dining area"></span><span class="b" data-img="biryani" data-w="500" data-alt="Biryani"></span><span class="c" data-img="pizza" data-w="500" data-alt="Pizza"></span><span class="d" data-img="table" data-w="600" data-alt="Plated dish"></span></div>
+ <div class="rv"><span class="eyebrow">Our Story</span><h2>Hospitality on Every Plate</h2><div class="gl"></div>
+ <p class="lead">Rozina's is a multi-cuisine restaurant known for generous portions, flavour-first cooking and warm service. Our Nakuru branch at Westside Mall brings together coastal Swahili dishes, Indian tandoor and curries, Italian pizza and pasta, and charcoal grills.</p>
+ <p class="lead">Whether it is a quick burger, a family feast or a table for a celebration, we want every visit to feel unhurried and welcoming.</p></div>
+</div></section>
+
+<section style="background:#fff"><div class="wrap"><div class="center rv"><span class="eyebrow">Guest Reviews</span><h2>What Diners Say</h2><div class="gl"></div></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+ <div class="rev rv"><b>★★★★★</b><q>Generous mixed grill, tender and sizzling, enough for two. The naan was extra fluffy.</q><span>Diner, Rozina's</span></div>
+ <div class="rev rv"><b>★★★★★</b><q>The garlic butter oysters and breaded mushrooms were outstanding, with excellent service.</q><span>Diner, Rozina's</span></div>
+ <div class="rev rv"><b>★★★★★</b><q>Creamy homemade kulfi to finish. Fresh food, fair pricing and attentive waiters.</q><span>Diner, Rozina's</span></div>
+</div></div></section>
+
+<section id="reserve"><div class="wrap split">
+ <div class="rv"><span class="eyebrow">Reservations</span><h2>Reserve a Table</h2><div class="gl"></div>
+ <p class="lead">Send us your details and we'll open a ready-to-send WhatsApp message. Your booking is only confirmed once the restaurant replies.</p>
+ <div class="collage" style="margin-top:26px"><span class="b" style="margin:0" data-img="dessert" data-w="400" data-alt="Dessert"></span><span class="c" style="margin:0" data-img="coffee" data-w="400" data-alt="Coffee"></span></div></div>
+ <div class="fbox rv"><form id="rf" novalidate>
+  <div><label for="name">Full name *</label><input id="name" name="name" required data-l="name" autocomplete="name"><span class="err"></span></div>
+  <div><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" required data-l="phone number" autocomplete="tel" placeholder="+254 7…"><span class="err"></span></div>
+  <div class="two"><div><label for="date">Preferred date *</label><input id="date" name="date" type="date" required data-l="date"><span class="err"></span></div>
+  <div><label for="time">Preferred time *</label><input id="time" name="time" type="time" required min="08:00" max="22:00" data-l="time"><span class="err"></span></div></div>
+  <div><label for="guests">Number of guests *</label><select id="guests" name="guests" required data-l="guest count"><option value="">Select</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7–10</option><option>11–20</option><option>20+</option></select><span class="err"></span></div>
+  <div><label for="notes">Special requests</label><textarea id="notes" name="notes" placeholder="Celebration, dietary needs, seating…"></textarea><span class="err"></span></div>
+  <button class="btn" type="submit">Send Enquiry on WhatsApp</button>
+  <p id="rmsg" hidden class="note" role="status"><b>WhatsApp should now be open.</b> Press send to share your enquiry. Your reservation is not confirmed until Rozina's replies.</p>
+ </form></div>
+</div></section>
+
+<section style="background:#fff"><div class="wrap"><div class="center rv"><span class="eyebrow">Contact</span><h2>Find &amp; Reach Us</h2><div class="gl"></div></div>
+<div class="info">
+ <div class="ic rv"><h3>Rozina's Restaurant, Nakuru</h3><p>Westside Mall, Kenyatta Avenue, Nakuru, Kenya</p><p>Daily 8AM – 10PM</p></div>
+ <div class="ic rv"><h3>Phone</h3><p><a href="tel:+254711482700">Call +254 711 482700</a></p></div>
+ <div class="ic rv"><h3>WhatsApp</h3><p><a data-wa="Hello Rozina's! I have an enquiry.">Enquiries &amp; orders →</a></p><p><a data-dir>Get Directions →</a></p></div>
+</div>
+<div style="margin-top:26px" class="rv"><iframe class="map" title="Map of Rozina's Restaurant, Nakuru" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Rozina%27s+Restaurant+Westside+Mall+Kenyatta+Avenue+Nakuru&output=embed"></iframe></div></div></section>
+
+<section class="cta"><div class="wrap rv"><h2>Your Table Awaits.</h2><div class="row"><a class="btn g" data-wa="Hello Rozina's! I'd like to enquire.">Enquire on WhatsApp</a><a class="btn ol" data-dir>Get Directions</a></div></div></section>
+
+<section class="legal" id="cookies"><div class="wrap"><h2>Cookie Policy</h2><p class="note">Last updated: 10 November 2026.</p>
+<h3>What we use</h3><p>This website stores one small item in your browser (local storage) to remember that you have seen the cookie notice. It does not run advertising or analytics tracking.</p>
+<h3>Third parties</h3><ul><li>Google Fonts and Google Maps (embedded map) may set their own cookies or collect technical data.</li><li>Photographs are loaded from image hosts and may log standard request data.</li><li>WhatsApp links open WhatsApp, which has its own privacy policy.</li></ul>
+<h3>Your choices</h3><p>You can clear stored data in your browser settings or block cookies at any time. Some embedded content may not load if blocked.</p></div></section>
+
+<section class="legal" id="terms" style="padding-top:0"><div class="wrap"><h2>Terms &amp; Conditions</h2>
+<h3>Information</h3><p>Menu items, descriptions and prices are based on the printed Nakuru menu and may change. Photographs are illustrative. Availability is confirmed by the restaurant.</p>
+<h3>Orders &amp; enquiries</h3><p>Orders and enquiries sent via WhatsApp are requests only. They become an order once Rozina's confirms them.</p>
+<h3>Reservations</h3><p>A reservation enquiry is not a booking. A table is held only after the restaurant replies to confirm. Tell us promptly if your plans change.</p>
+<h3>Personal data</h3><p>Details you enter in the reservation form are used only to create your WhatsApp message on your device. They are not stored on this website.</p>
+<h3>Allergies</h3><p>Please tell staff about any allergies or dietary needs before ordering.</p>
+<h3>Contact</h3><p>Rozina's Restaurant, Westside Mall, Kenyatta Avenue, Nakuru. WhatsApp +254 711 482700.</p></div></section>
+</main>
+<footer id="ft"></footer>
+</body></html>
